@@ -6,8 +6,8 @@
 </style>
 <script type="module">
 
-import mozjpeg_node_dec from './mozjpeg_node_dec.js';
-
+import * as m from './mozjpeg_node_dec.js';
+alert(Object.keys(m))
 
   async function main() {
     const module = await mozjpeg_node_dec();
